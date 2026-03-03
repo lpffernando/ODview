@@ -2,7 +2,7 @@ name = "odview"
 compatibility_date = "2024-01-01"
 
 [build]
-command = "npm run build"
+command = "npm install && npm run build"
 directory = "build"
 
 [build.environment]
