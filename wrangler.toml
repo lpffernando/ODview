@@ -7,3 +7,5 @@ directory = "build"
 
 [build.environment]
 NODE_VERSION = "18"
+DISABLE_ESLINT_PLUGIN = "true"
+CI = "false"
